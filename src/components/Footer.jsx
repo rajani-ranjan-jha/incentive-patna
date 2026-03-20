@@ -10,9 +10,9 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: Youtube, label: 'YouTube', href: 'http://www.youtube.com/@incentivepatna', colour: 'red-500' },
-  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/p/Incentive-100064379634181/', colour: 'blue-500' },
-  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/incentive_patna/', colour: 'pink-500' },
+  { icon: Youtube, label: 'YouTube', href: 'http://www.youtube.com/@incentivepatna', colour: 'text-red-500' },
+  { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/p/Incentive-100064379634181/', colour: 'text-blue-500' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/incentive_patna/', colour: 'text-pink-500' },
   // { icon: Twitter, label: 'Twitter', href: 'https://x.com/' },
 ];
 
@@ -62,7 +62,7 @@ export default function Footer() {
               {socialLinks.map(({ icon: Icon, label, href, colour }) => (
                 <li key={label}>
                   <a href={href} target='_blank' className="flex items-center gap-3 hover:text-white transition-colors duration-200" >
-                    <Icon className={`w-5 h-5 text-${colour}`} />
+                    <Icon className={`w-5 h-5 ${colour}`} />
                     {label}
                   </a>
                 </li>
