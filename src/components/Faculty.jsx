@@ -2,8 +2,8 @@ import { UserCircle2 } from "lucide-react";
 
 const faculty = [
   {
-    name: 'Chandar Sir',
-    role: 'Chemistary (Director)',
+    name: 'Chandan Sir',
+    role: 'Chemistry (Director)',
     bio: 'M.Sc in Chemistry, 20+ years exp.',
     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC2K0pU9T-L9980i3q5t9K615eX2u012i5k9p65T_X6V9W9X-mX9W1iX-M_X9L1iX-M_W9X-W1iX-M_X9L1iX-M_W9X-W1iX-M_X9L1iX-M_W9X-W1iX-M_X9L1iX-M_W9X-W1iX-M_X9L1iX-M_W9X-W1iX-M_X9L1iX-M_W9X-W1iX-M_',
   },
@@ -15,7 +15,7 @@ const faculty = [
   },
   {
     name: 'Raj Sir',
-    role: 'Maths',
+    role: 'Mathematics',
     bio: 'M.Sc in Mathematics, 20+ years exp.',
     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuByI8TZMkIRIIZFPaUVBGapP6AFDuprCnjCbn723yPCWyqvEaJZvFGOWaCVSVtQpV8y1NGre5rp9xpBmaTAuNmhrLBzrbxnneVBzsI9O1Sp312RugCGnob8SDgvOz0MxmZWylNaGK0SuZq1TG7WyxS7si9SZwlWA4bWIofcNEP9wC_Srzi_285x1O3LlL-ShFJE-1De5y35ir9QtPQ4dccELhulEhXjTg02ne2qwAiC2ZkCvJQNrNFdJhEw1BD5Yit0kVsSLWQFNzKn',
   },

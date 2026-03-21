@@ -1,4 +1,4 @@
-import { Star, Heart, Shield } from 'lucide-react';
+import { Star, Heart, Shield, UserCircle2 } from 'lucide-react';
 
 const reviews = [
   {
@@ -67,11 +67,12 @@ export default function Reviews() {
               className="w-80 h-80 p-8 bg-surface-alt rounded-2xl border border-border space-y-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   src={img}
                   alt={name}
                   className="w-14 h-14 rounded-full object-cover border-2 border-primary/20"
-                />
+                /> */}
+                <UserCircle2 className="w-14 h-14 rounded-full object-cover border-2 border-primary/20" strokeWidth={0.5}/>
                 <div>
                   <h4 className="font-bold text-txt">{name}</h4>
                   <StarRating />
